@@ -1,0 +1,12 @@
+div {
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+}
+
+.element {
+    height: 10px;
+    flex: 1;
+}
