@@ -19,3 +19,7 @@ div {
 .element {
     flex: 1;
 }
+
+.element.touched{
+    background-color: gray;
+}
