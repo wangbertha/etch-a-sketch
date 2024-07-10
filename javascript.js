@@ -5,7 +5,12 @@ setGrid(initialGridSize);
 const button = document.querySelector('button');
 button.addEventListener('click', () => {
     const newGridSize = prompt('Enter width and height size: ');
-    setGrid(newGridSize);
+    if (newGridSize <= 100) {
+        setGrid(newGridSize);
+    }
+    else {
+        alert('Width/height must be 100 or below')
+    }
 })
 
 function setGrid(size) {
