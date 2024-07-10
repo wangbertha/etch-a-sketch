@@ -1,12 +1,25 @@
+html, body, .grid {
+    height: 98%;
+}
+
 div {
     border: 1px solid black;
 }
 
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
 .row {
+    flex: 1;
     display: flex;
 }
 
 .element {
-    height: 10px;
     flex: 1;
+}
+
+.element:hover {
+    background-color: gray;
 }
